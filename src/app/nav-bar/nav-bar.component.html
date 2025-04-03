@@ -1,0 +1,11 @@
+<nav class="nav-bar">
+  <a *ngFor="let nav of navItems"
+     [routerLink]="nav.routerLink"
+     (click)="onClickNav(nav.id)"
+     [class.active]="selectedNav === nav.id">
+    {{nav.label}}
+  </a>
+</nav>
+
+
+<!-- Software/Data&Analytics/Cyberssecurity/IT&Systems/UX-UI/Game Dev/Programmer/Engineer -->
