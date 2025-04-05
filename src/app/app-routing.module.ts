@@ -7,10 +7,6 @@ import { CybersecurityComponent } from './cybersecurity/cybersecurity.component'
 
 const routes: Routes = [
   {
-    path: '',
-    component: AppComponent
-  },
-  {
     path: 'Software-Dev',
     component: SoftwareDevComponent
   },
