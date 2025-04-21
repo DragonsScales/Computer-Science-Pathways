@@ -22,7 +22,7 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
-          "options": {
+          "options": { //flag nessessary for gh-pages ng deploy --base-href=/Computer-Science-Pathways/
             "outputPath": "dist/csoccupations",
             "index": "src/index.html",
             "browser": "src/main.ts",

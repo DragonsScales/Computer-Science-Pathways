@@ -1,5 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
 main {
     position: absolute;
     top: 3.15rem;
+    width: 40%;
+    left: 30%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+div {
+    width: 100%;
+}
+
+img {
+    width: 100%;
 }
