@@ -15,7 +15,7 @@ export class NavBarComponent {
     { label: 'Software Dev', routerLink: '/Software-Dev', id: 'software-Dev' },
     { label: 'Cybersecurity', routerLink: '/Cybersecurity', id: 'cybersecurity' },
     //{ label: 'Data & Analytics', routerLink: '/Data-Analytics', id: 'data-Analytics' },
-    { label: 'IT & Systems', routerLink: '/IT&Systems', id: 'it-Systems' },
+    //{ label: 'IT & Systems', routerLink: '/IT&Systems', id: 'it-Systems' },
     { label: 'Game Dev', routerLink: '/Game-Dev', id: 'game-dev'}
   ]
 

@@ -29,10 +29,6 @@ const routes: Routes = [
     path: 'IT&Systems',
     component: ITComponent
   }
-  //{
-  //  path: 'Data-Analytics',
-  //  component: DataAnalyticsComponent
-  //},
 ];
 
 @NgModule({
