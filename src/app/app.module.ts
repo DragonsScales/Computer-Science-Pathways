@@ -9,6 +9,7 @@ import { CybersecurityComponent } from './cybersecurity/cybersecurity.component'
 import { GameDevComponent } from './game-dev/game-dev.component';
 import { DataAnalyticsComponent } from './data-analytics/data-analytics.component';
 import { ITComponent } from './it/it.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ITComponent } from './it/it.component';
     CybersecurityComponent,
     GameDevComponent,
     DataAnalyticsComponent,
-    ITComponent
+    ITComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,

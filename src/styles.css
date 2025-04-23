@@ -17,6 +17,7 @@ h2 {
 p {
     text-align: left;
     font-size: 1.3rem;
+    margin-bottom: 4rem;
 }
 
 div {
@@ -25,4 +26,9 @@ div {
 
 img {
     width: 100%;
+}
+
+figcaption {
+    text-align: left;
+    color: gray;
 }

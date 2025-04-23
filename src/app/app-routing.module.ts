@@ -4,8 +4,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { SoftwareDevComponent } from './software-dev/software-dev.component';
 import { CybersecurityComponent } from './cybersecurity/cybersecurity.component';
 import { DataAnalyticsComponent } from './data-analytics/data-analytics.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { GameDevComponent } from './game-dev/game-dev.component';
+import { ITComponent } from './it/it.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    component: HomePageComponent
+  },
   {
     path: 'Software-Dev',
     component: SoftwareDevComponent
@@ -15,9 +22,17 @@ const routes: Routes = [
     component: CybersecurityComponent
   },
   {
-    path: 'Data-Analytics',
-    component: DataAnalyticsComponent
+    path: 'Game-Dev',
+    component: GameDevComponent
   },
+  {
+    path: 'IT&Systems',
+    component: ITComponent
+  }
+  //{
+  //  path: 'Data-Analytics',
+  //  component: DataAnalyticsComponent
+  //},
 ];
 
 @NgModule({
