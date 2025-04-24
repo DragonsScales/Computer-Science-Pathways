@@ -18,9 +18,13 @@ export class NavBarComponent {
     //{ label: 'IT & Systems', routerLink: '/IT&Systems', id: 'it-Systems' },
     { label: 'Game Dev', routerLink: '/Game-Dev', id: 'game-dev'}
   ]
+  constructor() {
+    this.selectedNav = localStorage.getItem("selectedNav") || 'home';
+  }
 
   onClickNav(nav: string) {
     this.selectedNav = nav;
+    localStorage.setItem("selectedNav", this.selectedNav);
     console.log("Selected Nav: " + nav);
   }
 }
